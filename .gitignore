@@ -41,8 +41,6 @@ AGENTS.md
 claude.md
 .claude/
 
-# bun
-bun.lock
 
 scripts/*
 scripts
