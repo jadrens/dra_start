@@ -5,9 +5,11 @@ import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import NightsStayIcon from "@mui/icons-material/NightsStay";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "./ThemeProvider";
+import { useI18n } from "@/lib/i18n";
 
 export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
+  const { t } = useI18n();
 
   return (
     <IconButton
@@ -19,7 +21,7 @@ export default function ThemeToggle() {
         overflow: "hidden",
         "&:hover": { backgroundColor: "action.hover" },
       }}
-      aria-label="Toggle theme"
+      aria-label={t.theme.toggle}
     >
       <AnimatePresence mode="wait" initial={false}>
         {theme === "dark" ? (

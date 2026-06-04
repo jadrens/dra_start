@@ -15,16 +15,11 @@ import ArticleIcon from "@mui/icons-material/Article";
 import LaunchIcon from "@mui/icons-material/Launch";
 import { motion } from "framer-motion";
 import StylizedName from "./StylizedName";
-
-const BLOG_FEATURES = [
-  "Markdown & LaTeX",
-  "Code Highlighting",
-  "Dark / Light Theme",
-  "Full-text Search",
-];
+import { useI18n } from "@/lib/i18n";
 
 export default function BlogPortal() {
   const [hovered, setHovered] = useState(false);
+  const { t } = useI18n();
 
   return (
     <Box
@@ -90,7 +85,7 @@ export default function BlogPortal() {
             <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
               <ArticleIcon sx={{ color: "primary.main", fontSize: 28 }} />
               <Typography variant="h6" sx={{ fontWeight: 700, color: "text.primary" }}>
-                My Blog
+                {t.blogPortal.title}
               </Typography>
               <LaunchIcon
                 sx={{
@@ -104,12 +99,11 @@ export default function BlogPortal() {
             </Box>
 
             <Typography variant="body2" color="text.secondary" sx={{ lineHeight: 1.6 }}>
-              A personal blog built with Next.js, featuring Markdown & LaTeX
-              support, code syntax highlighting, and bilingual content.
+              {t.blogPortal.description}
             </Typography>
 
             <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.75 }}>
-              {BLOG_FEATURES.map((feat) => (
+              {t.blogPortal.features.map((feat) => (
                 <Chip
                   key={feat}
                   label={feat}
@@ -136,7 +130,7 @@ export default function BlogPortal() {
                 fontWeight: 600,
               }}
             >
-              Visit blog.dragonren.top
+              {t.blogPortal.visit}
             </Button>
           </CardContent>
         </Card>

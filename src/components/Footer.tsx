@@ -4,9 +4,11 @@ import { Box, Typography, Chip, Avatar } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { useI18n } from "@/lib/i18n";
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const { t } = useI18n();
 
   return (
     <Box
@@ -39,7 +41,7 @@ export default function Footer() {
           }}
         />
         <Typography variant="body2" color="text.secondary">
-          &copy; {year} dragonren
+          &copy; {year} {t.footer.copyright}
         </Typography>
         <Box
           sx={{
@@ -51,9 +53,9 @@ export default function Footer() {
         >
           <Chip
             icon={<EmailIcon sx={{ fontSize: 14 }} />}
-            label="jaden@jadren.moe"
+            label={t.footer.email}
             component="a"
-            href="mailto:jaden@jadren.moe"
+            href={`mailto:${t.footer.email}`}
             clickable
             size="small"
             variant="outlined"
@@ -61,7 +63,7 @@ export default function Footer() {
           />
           <Chip
             icon={<LinkIcon sx={{ fontSize: 14 }} />}
-            label="豫ICP备2023022865号"
+            label={t.footer.beian}
             component="a"
             href="https://beian.miit.gov.cn/"
             clickable
@@ -73,7 +75,7 @@ export default function Footer() {
           />
           <Chip
             icon={<GitHubIcon sx={{ fontSize: 14 }} />}
-            label="GitHub"
+            label={t.footer.github}
             component="a"
             href="https://github.com/jadrens"
             clickable

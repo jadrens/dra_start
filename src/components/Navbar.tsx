@@ -10,9 +10,12 @@ import {
   useTheme,
 } from "@mui/material";
 import ThemeToggle from "./ThemeToggle";
+import LocaleToggle from "./LocaleToggle";
+import { useI18n } from "@/lib/i18n";
 
 export default function Navbar() {
   const theme = useTheme();
+  const { t } = useI18n();
   const bg = theme.palette.mode === "dark" ? "#1e1e1e" : "#f8f6f3";
 
   return (
@@ -60,12 +63,13 @@ export default function Navbar() {
             rel="noopener noreferrer"
             size="small"
           >
-            BLOG
+            {t.nav.blog}
           </Button>
           <Button component={Link} href="/" size="small">
-            START
+            {t.nav.start}
           </Button>
           <ThemeToggle />
+          <LocaleToggle />
         </Box>
       </Toolbar>
     </AppBar>
