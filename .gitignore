@@ -43,3 +43,8 @@ claude.md
 
 # bun
 bun.lock
+
+scripts/*
+scripts
+
+nginx.conf
