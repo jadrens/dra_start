@@ -7,10 +7,10 @@ export const zh: TranslationKeys = {
   },
   home: {
     title: "dragonren - 起始",
-    description: "dragonren 的起始页",
+    description: "小龙小窝",
   },
   blogPortal: {
-    title: "我的博客",
+    title: "小龙小窝",
     description:
       "基于 Next.js 构建的个人博客，支持 Markdown 与 LaTeX、代码高亮、以及双语内容。",
     features: [
@@ -23,6 +23,10 @@ export const zh: TranslationKeys = {
   },
   theme: {
     toggle: "切换主题",
+  },
+  stylizedName: {
+    part1: "小龙",
+    part2: "小窝",
   },
   footer: {
     copyright: "dragonren",

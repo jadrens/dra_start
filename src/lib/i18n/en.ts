@@ -22,6 +22,10 @@ export const en = {
   theme: {
     toggle: "Toggle theme",
   },
+  stylizedName: {
+    part1: "Jadren ",
+    part2: "Rayne",
+  },
   footer: {
     copyright: "dragonren",
     email: "jaden@jadren.moe",

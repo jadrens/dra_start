@@ -1,8 +1,9 @@
 "use client";
 
 import { Box } from "@mui/material";
+import { useI18n } from "@/lib/i18n";
 
-const JADREN_COLORS = [
+const PART1_COLORS = [
   "#6bb6eb",
   "#f19595",
   "#9eb5a3",
@@ -10,7 +11,7 @@ const JADREN_COLORS = [
   "#b5a3c4",
   "#a3b59e",
 ];
-const RAYNE_COLORS = [
+const PART2_COLORS = [
   "#9eb2c4",
   "#a7b5bd",
   "#bdb08f",
@@ -19,6 +20,8 @@ const RAYNE_COLORS = [
 ];
 
 export default function StylizedName() {
+  const { t } = useI18n();
+
   const renderText = (text: string, colors: string[]) => {
     return text.split("").map((char, i) => {
       const color = colors[i % colors.length];
@@ -48,8 +51,8 @@ export default function StylizedName() {
         lineHeight: 1.2,
       }}
     >
-      {renderText("Jadren ", JADREN_COLORS)}
-      {renderText("Rayne", RAYNE_COLORS)}
+      {renderText(t.stylizedName.part1, PART1_COLORS)}
+      {renderText(t.stylizedName.part2, PART2_COLORS)}
     </Box>
   );
 }
