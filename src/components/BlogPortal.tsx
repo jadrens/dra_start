@@ -61,7 +61,7 @@ export default function BlogPortal() {
       >
         <Card
           component={Link}
-          href="https://blog.dragonren.top"
+          href="https://blog.rayou.me"
           target="_blank"
           rel="noopener noreferrer"
           sx={{
