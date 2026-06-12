@@ -17,7 +17,7 @@ export const en = {
       "Dark / Light Theme",
       "Full-text Search",
     ],
-    visit: "Visit blog.dragonren.top",
+    visit: "Visit blog.rayou.me",
   },
   theme: {
     toggle: "Toggle theme",

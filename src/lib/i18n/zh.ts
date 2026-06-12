@@ -19,7 +19,7 @@ export const zh: TranslationKeys = {
       "深色 / 浅色主题",
       "全文搜索",
     ],
-    visit: "访问 blog.dragonren.top",
+    visit: "访问 blog.rayou.me",
   },
   theme: {
     toggle: "切换主题",

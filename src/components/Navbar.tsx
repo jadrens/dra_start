@@ -58,7 +58,7 @@ export default function Navbar() {
         >
           <Button
             component={Link}
-            href="https://blog.dragonren.top"
+            href="https://blog.rayou.me"
             target="_blank"
             rel="noopener noreferrer"
             size="small"
