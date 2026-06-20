@@ -4,6 +4,7 @@ export const zh: TranslationKeys = {
   nav: {
     start: "起始",
     blog: "博客",
+    tools: "工具",
   },
   home: {
     title: "dragonren - 起始",
@@ -27,6 +28,18 @@ export const zh: TranslationKeys = {
   stylizedName: {
     part1: "小龙",
     part2: "小窝",
+  },
+  toolPortal: {
+    title: "在线工具",
+    description:
+      "实用在线工具集合 — Base64 编解码，更多工具正在路上。",
+    features: [
+      "Base64 编解码",
+      "快速且可离线使用",
+      "深色 / 浅色主题",
+      "更多工具即将到来",
+    ],
+    visit: "访问 tool.rayou.me",
   },
   footer: {
     copyright: "dragonren",

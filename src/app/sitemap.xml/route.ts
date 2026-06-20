@@ -11,6 +11,10 @@ export async function GET() {
     <loc>https://blog.rayou.me/sitemap.xml</loc>
     <lastmod>${formatSitemapDate(new Date())}</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://tool.rayou.me/sitemap.xml</loc>
+    <lastmod>${formatSitemapDate(new Date())}</lastmod>
+  </sitemap>
 </sitemapindex>`;
 
   return new NextResponse(xml, {

@@ -65,6 +65,15 @@ export default function Navbar() {
           >
             {t.nav.blog}
           </Button>
+          <Button
+            component={Link}
+            href="https://tool.rayou.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            size="small"
+          >
+            {t.nav.tools}
+          </Button>
           <Button component={Link} href="/" size="small">
             {t.nav.start}
           </Button>

@@ -2,6 +2,7 @@ export const en = {
   nav: {
     start: "START",
     blog: "BLOG",
+    tools: "TOOLS",
   },
   home: {
     title: "dragonren - Start",
@@ -25,6 +26,18 @@ export const en = {
   stylizedName: {
     part1: "Jadren ",
     part2: "Rayne",
+  },
+  toolPortal: {
+    title: "Online Tools",
+    description:
+      "A collection of useful online tools — Base64 encode/decode, with more utilities on the way.",
+    features: [
+      "Base64 Encoder/Decoder",
+      "Fast & Offline-capable",
+      "Dark / Light Theme",
+      "More Tools Coming",
+    ],
+    visit: "Visit tool.rayou.me",
   },
   footer: {
     copyright: "dragonren",
