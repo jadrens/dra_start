@@ -7,7 +7,7 @@ export const zh: TranslationKeys = {
     tools: "工具",
   },
   home: {
-    title: "dragonren - 起始",
+    title: "jadren - 起始",
     description: "小龙小窝",
   },
   blogPortal: {
@@ -42,7 +42,7 @@ export const zh: TranslationKeys = {
     visit: "访问 tool.rayou.me",
   },
   footer: {
-    copyright: "dragonren",
+    copyright: "jadren",
     email: "jaden@jadren.moe",
     github: "GitHub",
     beian: "豫ICP备2023022865号",

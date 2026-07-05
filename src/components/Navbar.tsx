@@ -44,7 +44,7 @@ export default function Navbar() {
           component={Link}
           href="/"
           src="/avatar.png"
-          alt="dragonren"
+          alt="jadren"
           sx={{ width: 32, height: 32, flexShrink: 0 }}
         />
         <Box

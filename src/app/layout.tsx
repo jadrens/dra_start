@@ -18,8 +18,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "dragonren - Start",
-  description: "Start page for dragonren",
+  title: "jadren - Start",
+  description: "Start page for jadren",
 };
 
 export default function RootLayout({

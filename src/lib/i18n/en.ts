@@ -5,8 +5,8 @@ export const en = {
     tools: "TOOLS",
   },
   home: {
-    title: "dragonren - Start",
-    description: "Start page for dragonren",
+    title: "jadren - Start",
+    description: "Start page for jadren",
   },
   blogPortal: {
     title: "My Blog",
@@ -40,7 +40,7 @@ export const en = {
     visit: "Visit tool.rayou.me",
   },
   footer: {
-    copyright: "dragonren",
+    copyright: "jadren",
     email: "jaden@jadren.moe",
     github: "GitHub",
     beian: "豫ICP备2023022865号",

@@ -32,7 +32,7 @@ export default function Footer() {
       >
         <Avatar
           src="/avatar.png"
-          alt="dragonren"
+          alt="jadren"
           sx={{
             width: 40,
             height: 40,
