@@ -56,7 +56,7 @@ export default function BlogPortal() {
       >
         <Box sx={{ flex: 1, minWidth: 0 }}>
           <PortalCard
-            href="https://blog.rayou.me"
+            href="https://blog.jadren.me"
             delay={0.2}
             icon={<ArticleIcon sx={{ color: "primary.main", fontSize: 28 }} />}
             title={t.blogPortal.title}
@@ -68,7 +68,7 @@ export default function BlogPortal() {
 
         <Box sx={{ flex: 1, minWidth: 0 }}>
           <PortalCard
-            href="https://tool.rayou.me"
+            href="https://tool.jadren.me"
             delay={0.3}
             icon={<BuildIcon sx={{ color: "primary.main", fontSize: 28 }} />}
             title={t.toolPortal.title}
