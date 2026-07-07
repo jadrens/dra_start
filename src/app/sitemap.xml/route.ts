@@ -8,11 +8,11 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://blog.rayou.me/sitemap.xml</loc>
+    <loc>https://blog.jadren.me/sitemap.xml</loc>
     <lastmod>${formatSitemapDate(new Date())}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://tool.rayou.me/sitemap.xml</loc>
+    <loc>https://tool.jadren.me/sitemap.xml</loc>
     <lastmod>${formatSitemapDate(new Date())}</lastmod>
   </sitemap>
 </sitemapindex>`;

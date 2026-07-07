@@ -5,7 +5,7 @@ export const en = {
     tools: "TOOLS",
   },
   home: {
-    title: "jadren - Start",
+    title: "rayoumeu - Start",
     description: "Start page for jadren",
   },
   blogPortal: {
@@ -24,8 +24,8 @@ export const en = {
     toggle: "Toggle theme",
   },
   stylizedName: {
-    part1: "Jadren ",
-    part2: "Rayne",
+    part1: "Rayoumeu ",
+    part2: "",
   },
   toolPortal: {
     title: "Online Tools",
@@ -40,8 +40,8 @@ export const en = {
     visit: "Visit tool.rayou.me",
   },
   footer: {
-    copyright: "jadren",
-    email: "jaden@jadren.moe",
+    copyright: "rayoumeu",
+    email: "rayou@rayou.me",
     github: "GitHub",
     beian: "豫ICP备2023022865号",
   },
