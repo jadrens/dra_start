@@ -24,8 +24,8 @@ export const en = {
     toggle: "Toggle theme",
   },
   stylizedName: {
-    part1: "Rayoumeu ",
-    part2: "",
+    part1: "Jadren",
+    part2: "Rayne",
   },
   toolPortal: {
     title: "Online Tools",
