@@ -20,7 +20,7 @@ export const zh: TranslationKeys = {
       "深色 / 浅色主题",
       "全文搜索",
     ],
-    visit: "访问 blog.rayou.me",
+    visit: "访问 blog.jadren.me",
   },
   theme: {
     toggle: "切换主题",
@@ -39,7 +39,7 @@ export const zh: TranslationKeys = {
       "深色 / 浅色主题",
       "更多工具即将到来",
     ],
-    visit: "访问 tool.rayou.me",
+    visit: "访问 tool.jadren.me",
   },
   footer: {
     copyright: "jadren",
