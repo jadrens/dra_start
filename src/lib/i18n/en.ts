@@ -18,7 +18,7 @@ export const en = {
       "Dark / Light Theme",
       "Full-text Search",
     ],
-    visit: "Visit blog.rayou.me",
+    visit: "Visit blog.jadren.me",
   },
   theme: {
     toggle: "Toggle theme",
@@ -37,11 +37,11 @@ export const en = {
       "Dark / Light Theme",
       "More Tools Coming",
     ],
-    visit: "Visit tool.rayou.me",
+    visit: "Visit tool.jadren.me",
   },
   footer: {
-    copyright: "rayoumeu",
-    email: "rayou@rayou.me",
+    copyright: "jadren",
+    email: "jaden@jadren.me",
     github: "GitHub",
     beian: "豫ICP备2023022865号",
   },

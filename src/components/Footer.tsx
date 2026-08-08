@@ -5,23 +5,25 @@ import EmailIcon from "@mui/icons-material/Email";
 import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { useI18n } from "@/lib/i18n";
+import BouncingAvatar from "./BouncingAvatar";
 
 export default function Footer() {
   const year = new Date().getFullYear();
   const { t } = useI18n();
 
   return (
-    <Box
-      component="footer"
-      sx={{
-        mt: "auto",
-        py: 3,
-        px: { xs: 4, sm: 3 },
-        borderTop: 1,
-        borderColor: "divider",
-        bgcolor: "background.paper",
-      }}
-    >
+    <>
+      <Box
+        component="footer"
+        sx={{
+          mt: "auto",
+          py: 3,
+          px: { xs: 4, sm: 3 },
+          borderTop: 1,
+          borderColor: "divider",
+          bgcolor: "background.paper",
+        }}
+      >
       <Box
         sx={{
           display: "flex",
@@ -31,11 +33,11 @@ export default function Footer() {
         }}
       >
         <Avatar
-          src="/avatar.png"
+          src="/avatar.svg"
           alt="jadren"
           sx={{
-            width: 40,
-            height: 40,
+            width: 48,
+            height: 48,
             transition: "transform 0.2s",
             "&:hover": { transform: "scale(1.2)" },
           }}
@@ -87,6 +89,8 @@ export default function Footer() {
           />
         </Box>
       </Box>
-    </Box>
+      </Box>
+      <BouncingAvatar />
+    </>
   );
 }

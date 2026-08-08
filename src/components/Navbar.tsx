@@ -43,9 +43,9 @@ export default function Navbar() {
         <Avatar
           component={Link}
           href="/"
-          src="/avatar.png"
+          src="/avatar.svg"
           alt="jadren"
-          sx={{ width: 32, height: 32, flexShrink: 0 }}
+          sx={{ width: 36, height: 36, flexShrink: 0 }}
         />
         <Box
           sx={{
